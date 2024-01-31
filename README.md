@@ -30,5 +30,5 @@ the program will print "in->" and get from user any command then will print this
 then rebeat until the command "exit"
 
 check method
-      check 4 times (1 on input & 'e') (2 on input & 'x') (3 on input & 'i') (4 on input & 't')
+      check 4 times (1 on input & 'e') (2 on input & 'x') (3 on input & 'i') (4 on input & 't') (5 on input & null)
       if all of them equals flag will be 4
