@@ -23,7 +23,7 @@ Good Bye
 
 i used  <stdio.h>          lib
         arr[50 char]       as input storage
-        arr[4 char]        to save "exit" command
+        arr[5 char]        to save "exit" command
         char counter,flag  in check process
         
 the program will print "in->" and get from user any command then will print this command 
