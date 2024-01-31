@@ -10,7 +10,7 @@ void main(void)
 {
 	unsigned char input[50] ;			//input string
 	unsigned char counter = 0;			//to check for exit
-	unsigned char exit[4] = {'e','x','i','t'};	//check string
+	unsigned char exit[5] = {'e','x','i','t',0};	//check string
 	unsigned char flag = 0;				//check flag
 
 	while(1)
@@ -19,7 +19,7 @@ void main(void)
 		printf("in-> ");			//out "in->"
 		gets(input);				//get string from user
 
-		for(counter=0; counter<4; ++counter)	//check if input == string
+		for(counter=0; counter<5; ++counter)	//check if input == string
 		{
 			if(exit[counter] == input[counter])
 			{
@@ -27,7 +27,7 @@ void main(void)
 			}
 		}
 
-		if(4 != flag)				//if input not exit
+		if(5 != flag)				//if input not exit
 		{
 			printf("out-> %s\n",input);	//out what user in
 		}
