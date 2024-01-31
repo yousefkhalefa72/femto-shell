@@ -7,10 +7,13 @@ Here is an example of the output:
 
 in-> Hello my shell
 out-> Hello my shell
+
 in-> what can you do?
 out-> what can you do?
+
 in-> You are super
 out-> You are super
+
 in-> exit
 Good Bye :)
 
