@@ -21,4 +21,14 @@ in-> exit
 
 Good Bye
 
-i used 
+i used  <stdio.h>          lib
+        arr[50 char]       as input storage
+        arr[4 char]        to save "exit" command
+        char counter,flag  in check process
+        
+the program will print "in->" and get from user any command then will print this command 
+then repeat until the command "exit"
+
+check method
+      check 4 times (1 on input & 'e') (2 on input & 'x') (3 on input & 'i') (4 on input & 't')
+      if all of them equals flag will be 4
