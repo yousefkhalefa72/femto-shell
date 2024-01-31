@@ -27,7 +27,7 @@ i used  <stdio.h>          lib
         char counter,flag  in check process
         
 the program will print "in->" and get from user any command then will print this command 
-then repeat until the command "exit"
+then rebeat until the command "exit"
 
 check method
       check 4 times (1 on input & 'e') (2 on input & 'x') (3 on input & 'i') (4 on input & 't')
